@@ -22,6 +22,6 @@ jobs:
       - run:  docker push shoaibakhtar1010/multi-worker-10-14 ./worker
 
       - name: Generate deployment package
-      - run:  zip -r deploy.zip . -x '*.git*'
+        run:  zip -r deploy.zip . -x '*.git*'
       
 
